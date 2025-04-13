@@ -1,0 +1,83 @@
+{
+  "included_statuses": {
+    "1734091091": [
+      {
+        "value": "processing",
+        "label": "בטיפול"
+      },
+      {
+        "value": "completed",
+        "label": "הושלם"
+      },
+      {
+        "value": "on-hold",
+        "label": "בהמתנה"
+      },
+      {
+        "value": "cancelled",
+        "label": "בוטל"
+      },
+      {
+        "value": "0",
+        "label": "ממתין לתשלום"
+      }
+    ],
+    "1734219687": [
+      "processing",
+      "completed",
+      "refunded",
+      "failed",
+      "preparation",
+      "shipping",
+      "phone-payment",
+      "sluaoisfadir",
+      "zztgmgv",
+      "happycustomer",
+      "adam",
+      "joni",
+      "nikos",
+      "north-delivery",
+      "south-delivery",
+      "shipping-center",
+      "sharon-delivery",
+      "jerusalem-deliver",
+      "done-alex",
+      "done-bachti",
+      "done-farid",
+      "done-ariel",
+      "change-order-cust",
+      "un-warehouse",
+      "un-shlomi",
+      "un-adir",
+      "un-adam",
+      "un-joni",
+      "customer-visit",
+      "late-delivery",
+      "radom",
+      "mlay",
+      "done-sharon",
+      "delivey-date",
+      "adiv",
+      "done-dvir",
+      "farid-toam",
+      "sharon-toam",
+      "joni-toam",
+      "nikos-toam",
+      "aviel-toam",
+      "betipol-eli-or",
+      "mitot",
+      "pickup",
+      "nikus-fix",
+      "sharon-fix",
+      "lior-fix",
+      "lior-toam",
+      "done-lior",
+      "rapad",
+      "customrt-visit-14",
+      "dima-toam",
+      "done-dima",
+      "ben",
+      "un-ben"
+    ]
+  }
+}

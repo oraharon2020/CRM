@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: crm-backend
+    env: node
+    buildCommand: npm install && npx tsc -p tsconfig.render.json
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DB_HOST
+        value: dpg-cv4avo5ds78s73ds7gjg-a.frankfurt-postgres.render.com
+      - key: DB_PORT
+        value: 5432
+      - key: DB_USER
+        value: global_crm_db_user
+      - key: DB_PASSWORD
+        value: 55rMFvN3oVFfogjLSmBE75uqhX06C5zq
+      - key: DB_NAME
+        value: global_crm_db
+      - key: DB_SSL
+        value: "true"
+      - key: JWT_SECRET
+        value: "your_jwt_secret_key_change_this_in_production"
+      - key: CORS_ORIGIN
+        value: "https://crm-fronted.onrender.com"
